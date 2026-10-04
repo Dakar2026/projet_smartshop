@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartShop - Boutique en ligne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SmartShop</h1>
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#produits">Produits</a>
+            <a href="#promotion">Promotions</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="accueil" class="hero">
+            <div>
+                <h2>Tout ce qu'il vous faut, au même endroit</h2>
+                <p>Découvrez nos produits modernes au meilleur prix.</p>
+                <a href="#produits" class="btn">Découvrir nos produits</a>
+            </div>
+            <img src="hero.jpg" alt="Shopping en ligne">
+        </section>
+
+        <section id="produits">
+            <h2>Nos produits</h2>
+
+            <div class="products">
+
+                <article>
+                    <img src="smarphone.jpg" alt="Smartphone">
+                    <h3>Smartphone</h3>
+                    <p>Technologie moderne et performante.</p>
+                    <button onclick="alert('Produit disponible chez SmartShop !')">Voir le produit</button>
+                </article>
+
+                <article>
+                    <img src="ordinateur.jpg" alt="Ordinateur">
+                    <h3>Ordinateur</h3>
+                    <p>Puissance et performance au quotidien.</p>
+                    <button onclick="alert('Produit disponible chez SmartShop !')">Voir le produit</button>
+                </article>
+
+                <article>
+                    <img src="casque.jpg" alt="Casque audio">
+                    <h3>Casque audio</h3>
+                    <p>Une expérience sonore exceptionnelle.</p>
+                    <button onclick="alert('Produit disponible chez SmartShop !')">Voir le produit</button>
+                </article>
+
+                <article>
+                    <img src="montre.jpg" alt="Montre connectée">
+                    <h3>Montre connectée</h3>
+                    <p>Restez connecté à tout moment.</p>
+                    <button onclick="alert('Produit disponible chez SmartShop !')">Voir le produit</button>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="promotion" class="promo">
+            <img src="hero.jpg" alt="Promotion SmartShop">
+            <div>
+                <h2>Profitez de nos promotions</h2>
+                <p>Découvrez nos offres spéciales et faites de bonnes affaires.</p>
+                <button onclick="alert('Produit disponible chez SmartShop !')">Voir le produit</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="773131620">
+        <h3>SmartShop</h3>
+        <p>Votre boutique en ligne de confiance.</p>
+        <p>© 2026 SmartShop - Tous droits réservés.</p>
+    </footer>
+<div id="productModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modalImage" src="" alt="">
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+<html
